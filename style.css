@@ -1,0 +1,274 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: cadetblue;
+    background-image:url("");
+    padding-right: 200px;
+    padding-left: 200px;
+
+    
+   
+}
+
+.img{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.menu{
+    font-family: "Verdana",sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family:"Lucida Calligraphy",cursive;
+
+    
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Hero styles */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background-image: url('https://images.unsplash.com/photo-1553798194-9a9e8a4a0965');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: "Georgia",serif;
+    background-color: cadetblue;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0062cc;
+}
+
+/* Services styles */
+.services {
+    padding: 80px 0;
+    text-align: center;
+    font-family: "Georgia",serif;
+    font-size: 100px;
+    background-color: cadetblue;
+}
+
+.services h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.services-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.services-list li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.services-list li:last-child {
+    margin-right: 0;
+}
+
+.services-list img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+
+
+.services li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.services li i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* About styles */
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size:24px;
+margin-bottom: 40px;
+}
+
+.about img {
+width: 100%;
+max-width: 600px;
+margin-bottom: 40px;
+}
+
+/* Contact styles */
+.contact {
+padding: 80px 0;
+text-align: center;
+}
+
+.highlight {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+.highlight h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #33cc33;
+    margin-bottom: 20px;
+}
+
+.highlight p {
+    font-size: 24px;
+    color: #33cc33;
+    margin-bottom: 0;
+}
+
+
+.contact h2 {
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 40px;
+}
+
+.contact form {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+width: 100%;
+max-width: 600px;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: none;
+}
+
+.contact textarea {
+height: 150px;
+}
+
+.contact input[type="submit"] {
+padding: 10px 20px;
+border-radius: 5px;
+background-color: #007bff;
+color: #fff;
+border: none;
+text-decoration: none;
+transition: background-color 0.2s ease-in-out;
+}
+
+.contact input[type="submit"]:hover {
+background-color: #0062cc;
+}
